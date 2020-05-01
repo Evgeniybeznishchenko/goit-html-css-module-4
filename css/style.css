@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  color: gray;
+  font-size: 30px;
+}
+
+.p::first-letter {
+  color: aqua;
+  font-weight: bold;
+}
+
+.site-navigation {
+  display: inline-block;
+  margin: 0;
+  width: 1060px;
+  padding: 0;
+  font-size: 14px;
+  list-style: none;
+  vertical-align: middle;
+  text-align: right;
+}
+
+.site-navigation li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.site-navigation li:first-child {
+  margin: 0;
+}
+
+a:hover,
+a:focus {
+  color: aqua;
+}
+
+h2 {
+  text-align: center;
+  color: gray;
+  font-size: 48px;
+  font-family: "Roboto", sans-serif;
+}
+
+.section-title:after {
+  content: "";
+  display: block;
+  width: 165px;
+  height: 7px;
+  margin: 32px auto 0;
+
+  background-color: aqua;
+}
+
+h3 {
+  text-align: left;
+  display: inline-block;
+  color: aliceblue;
+  width: 200px;
+  height: 40px;
+  vertical-align: middle;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 18px;
+  line-height: 2;
+  text-indent: 14px;
+}
+
+span {
+  text-align: left;
+  display: inline-block;
+  width: 55px;
+  vertical-align: middle;
+  font-family: "Roboto", sans-serif;
+  margin: 0 auto;
+  padding: 0;
+  font-size: 18px;
+  text-align: center;
+  line-height: 2;
+}
+
+.box {
+  font-size: 0;
+}
+
+.product:hover {
+  background: linear-gradient(90deg, #1abc9c 80%, rgba(26, 188, 156, 0.7) 20%);
+}
+.product {
+  display: inline-block;
+  background: linear-gradient(90deg, #323232 80%, #8c8c8c 20%);
+  margin-right: 30px;
+  margin-bottom: 30px;
+  
+  
+  
+}
+
+.product-li:nth-child(4n) {
+  
+  margin-right: 0px;
+
+.card-deck {
+  width: 350px;
+  height: 495px;
+  display: inline-block;
+}
+
+.card {
+  width: 350px;
+  height: 260px;
+}
+
+.card-title {
+  font-size: 18px;
+  color: #555252;
+  font-family: "Roboto",
+  sans-serif;
+  width: 350px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #555252;
+  font-family: "Roboto",
+  sans-serif;
+  width: 350px;
+  margin: 0 auto;
+  padding: 0;
+  
+}
+
+.card-body {
+  width: 350px;
+}
